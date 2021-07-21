@@ -54,3 +54,6 @@ fn addQuadMenuButton macro cat txt remove: false =
 
 addQuadMenuButton "WF_S_T" "[3DGROUND]" "WayFair Setup Tools" remove: true
 addQuadMenuButton "WF_S_T" "[3DGROUND]" "WayFair Setup Tools" remove: false
+
+szScript =  @"S:\00_Scripts\WayFair Setup Tools.ms"
+try(fileIn(szScript)) catch()
